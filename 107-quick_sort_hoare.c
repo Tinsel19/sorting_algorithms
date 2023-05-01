@@ -11,7 +11,7 @@
  *
  * Return: index of the partition
  */
-size_t partition(int *array, ssize_t lo, ssize_t hi, size_t size)
+int partition(int *array, ssize_t lo, ssize_t hi, size_t size)
 {
 	int swap, pivot;
 
